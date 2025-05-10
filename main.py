@@ -12,7 +12,8 @@ if __name__ == '__main__':
     result = model.train(data=r"D:\Xueniansheji\Ultralytics-main\ultralytics\cfg\datasets\Dataset\data.yaml",
                          epochs=400,
                          batch=20,
-                         patience=30
+                         patience=30,
+                         learn = 0.01
                          )
 
 
